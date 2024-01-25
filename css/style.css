@@ -183,7 +183,7 @@ a {
   height: 100vh;
 }
 #app .home h1 {
-  width: 60rem;
+  max-width: 60rem;
 }
 
 .footer {
