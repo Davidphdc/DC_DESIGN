@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="David Cvetkovic - Front-end Web Developlment, Graphic Design and Content Writing.">
+  <link rel="stylesheet" href="../css/style.css" type="text/css">
+  <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+  
+  <script type="module" src="../js/index.js"></script>
+
+  <script src="https://kit.fontawesome.com/e5e981c3a8.js" crossorigin="anonymous"></script>
+  <script src="https://www.google.com/recaptcha/api.js"></script>
+  <title>David Cvetkovic | Designer & Writer</title>
+</head>
+<body>
+  <header class="header">
+    <!-- <div class="logo"><a href="#"><img src="../assets/logodc002.png" alt=""></a></div> -->
+    <div class="logo"><a href="/"><img src="../assets/logodc.png" alt="David Cvetkovic designs logo"></a></div>
+    <!-- <div class="logo"><a href="#"><img src="../assets/newlogodc01.png" alt=""></a></div> -->
+    <nav class="nav" id="hidenav"> 
+     <div class="close-btn"></div>
+     <a href="/" class="nav_link" id="nav_link">Home</a>
+     <a href="/about/" class="nav_link" id="nav_link">About</a> 
+     <a href="/services/" class="nav_link" id="nav_link">Services</a> 
+     <a href="/projects/" class="nav_link" id="nav_link">Featured Projects</a>
+     <a href="/contact/" class="nav_link" id="nav_link">Contact</a>
+       
+    
+     </nav>   
+     <div class="menu-btn"></div>
+   </header>
+  <div id="app">
+    <div class="home">
+      <div class="home_headings" id="about">
+        <h1>Contact</h1>
+      </div>
+      <div class="contact_form">
+        <div class="form_content">
+          <h1>Lets get Creative!</h1>
+          <h2>Please reach out for any queries and I will endeavour to respond within 48 hrs.</h2>
+        </div>
+      <form id="cform" class="cform" action="/designerdata.php" method="POST">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Please enter your first name..." required><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="Please enter your last name..." required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Please enter your email address..." required><br>
+        <label for="message">Message</label><br>
+        <textarea type="message" name="message" id="message" placeholder="Please enter your message..." required></textarea>
+        <br><br>
+        <div class="g-recaptcha" 
+        data-sitekey="6LeKkWIjAAAAAAtE1vS3hFKSocwtb2M1Iceh8yaC"></div>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+  </div>
+
+
+  <footer class="footer">
+    <div class="section">
+      <div class="logo_f"><a href="/"><img src="../assets/logodc.png" alt="David Cvetkovic designs logo"></a></div>
+      <br>
+      <div class="footer_menu">
+        <a href="/" class="nav_link" id="nav_link">Home</a>
+        <a href="/about/" class="nav_link" id="nav_link">About</a> 
+        <a href="/services/" class="nav_link" id="nav_link">Services</a> 
+        <a href="/projects/" class="nav_link" id="nav_link">Featured Projects</a>
+        <a href="/contact/" class="nav_link" id="nav_link">Contact</a>
+      </div>
+     
+      <br>
+      <div class="base_footer">
+        <h4>David Cvetkovic &copy 2023 | All Rights Reserved</h4>
+        <a href="privacypolicy.html"><h4>Privacy Policy</h4></a>
+    </div>
+    </div>
+  </footer>
+
+
+
+</body>
+</html>
