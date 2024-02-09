@@ -1,9 +1,14 @@
-
+// SHOUT OUT TO @Brad Travery,https://www.traversymedia.com/ and @Coder Coder https://coder-coder.com/ for all your help learning coding languages.
 const nav = document.querySelector(".nav");
 const menuBtn = document.querySelector(".menu-btn");
 const closeBtn = document.querySelector(".close-btn");
 const hidenav = document.getElementById("hidenav");
 
+// const service = document.getElementById("services");
+// const btn = document.querySelectorAll(".btn");
+
+
+// Menu Navigation
 menuBtn.addEventListener("click", () => {
   nav.classList.add("active");
   menuBtn.classList.add("nonvisible");
@@ -31,11 +36,40 @@ navLinks.forEach((navlink) => {
   
 });
 
-
+// Sticky Header
 window.addEventListener("scroll", () => {
   const header = document.querySelector(".header");
   header.classList.toggle("sticky", window.scrollY > 0);
 });
 
 
-// SHOUT OUT TO @Brad Travery, Coder Coder for all your help learning coding languages.
+
+// Letterize animation is from anime.js @Juliangarnier & Letterize.js @Wojeciech Krakowiak
+
+import Letterize from "https://cdn.skypack.dev/letterizejs@2.0.0";
+const test = new Letterize({
+        targets: ".banner_headings"
+      });
+
+      const animation = anime.timeline({
+        targets: test.listAll,
+        delay: anime.stagger(100, {
+          grid: [test.list[0].length, test.list.length],
+          from: "center"
+        }),
+        loop: true
+      });
+
+      animation
+        .add({
+          scale: 0.5
+        })
+        .add({
+          letterSpacing: "0.625rem"
+        })
+        .add({
+          scale: 1
+        })
+        .add({
+          letterSpacing: "0.375rem"
+        });
