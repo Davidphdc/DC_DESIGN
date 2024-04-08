@@ -666,13 +666,11 @@ span {
     font-size: 0.6rem;
   }
 }
-.footer .section .logo_f {
-  transition: 300ms ease-in-out;
-}
 .footer .section .logo_f img {
   height: 2.4rem;
+  transition: 300ms ease-in-out;
 }
-.footer .section .logo_f:hover {
+.footer .section .logo_f img:hover {
   transform: scale(1.1);
   transition: 300ms ease-in-out;
 }
