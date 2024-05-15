@@ -353,9 +353,10 @@ a {
 
 .home_projects {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
 }
 @media (max-width: 63.9375em) {
