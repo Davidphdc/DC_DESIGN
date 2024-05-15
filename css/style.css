@@ -560,6 +560,7 @@ a {
   box-shadow: 0px 0px 30px black;
 }
 .contact_form form.cform label {
+  margin-bottom: 0.4rem;
   text-align: left;
   letter-spacing: 0.4rem;
   font-weight: 600;
