@@ -5,6 +5,11 @@ const menuBtn = document.querySelector(".menu-btn");
 const closeBtn = document.querySelector(".close-btn");
 const hidenav = document.getElementById("hidenav");
 
+// Current Year for Copyright Footer
+let currentDate = new Date();
+let currentYear = currentDate.getFullYear();
+
+const copyright = document.getElementById("currentYear").innerText = currentYear; 
 // const service = document.getElementById("services");
 // const btn = document.querySelectorAll(".btn");
 
