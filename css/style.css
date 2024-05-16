@@ -515,7 +515,7 @@ a {
   display: none;
 }
 #services .service_content .card_content img {
-  width: 50%;
+  width: 100%;
 }
 #services .service_content .card_content .card {
   background-color: #ffffff;
