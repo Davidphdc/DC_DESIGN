@@ -358,6 +358,7 @@ a {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  margin-bottom: 4rem;
 }
 @media (max-width: 63.9375em) {
   .home_projects {
@@ -437,7 +438,7 @@ a {
   transform: translateX(-50%);
   width: 80%;
   height: 100vh;
-  overflow: auto;
+  overflow: hidden;
   background-color: #ffffff;
   border: 4px solid #ff5703;
   padding: 2rem;
@@ -456,7 +457,7 @@ a {
 }
 .home_projects .project_modal iframe {
   width: 100%;
-  height: 80%;
+  height: 90%;
 }
 
 #services {
