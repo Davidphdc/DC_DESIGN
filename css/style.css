@@ -414,50 +414,23 @@ a {
 }
 .home_projects .projects_content .project_detail .detail_content {
   text-align: left;
+  display: flex;
+  flex-wrap: wrap;
 }
-.home_projects .projects_content .project_detail .detail_content .modal_btn {
+.home_projects .projects_content .project_detail .detail_content .btn {
   color: #ffffff;
   cursor: pointer;
   border: 1px solid #ffffff;
   background-color: #ff5703;
   margin-top: 1rem;
   padding: 1rem;
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
 }
-.home_projects .projects_content .project_detail .detail_content .modal_btn:hover {
+.home_projects .projects_content .project_detail .detail_content .btn:hover {
   color: #ff5703;
   background-color: #ffffff;
   border: 1px solid #ff5703;
-}
-.home_projects .project_modal {
-  margin-top: 2rem;
-  display: none;
-  position: fixed;
-  z-index: 1;
-  left: 50%;
-  top: 0;
-  transform: translateX(-50%);
-  width: 80%;
-  height: 100vh;
-  overflow: hidden;
-  background-color: #ffffff;
-  border: 4px solid #ff5703;
-  padding: 2rem;
-  scrollbar-width: none;
-}
-.home_projects .project_modal .close {
-  color: #ff5703;
-  font-size: 2rem;
-  float: right;
-  margin-bottom: 2rem;
-  font-weight: 600;
-}
-.home_projects .project_modal .close:hover, .home_projects .project_modal .close:focus {
-  color: #000000;
-  cursor: pointer;
-}
-.home_projects .project_modal iframe {
-  width: 100%;
-  height: 90%;
 }
 
 #services {
