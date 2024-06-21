@@ -332,6 +332,7 @@ a {
   .home_mission {
     flex-direction: column;
     align-items: center;
+    margin: 1rem;
   }
 }
 .home_mission .mission_content {
