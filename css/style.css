@@ -603,6 +603,11 @@ a {
   margin-bottom: 3rem;
   line-height: 1.2;
 }
+@media (max-width: 63.9375em) {
+  .bannerH {
+    font-size: 3vw;
+  }
+}
 .bannerH .banner_headings {
   padding-top: 1rem;
 }
