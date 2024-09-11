@@ -117,17 +117,6 @@ a {
   transition: 0.3s;
   font-size: 1.4rem;
 }
-.header .nav .nav_link.active {
-  font-weight: 900;
-  color: #ff5703;
-  transition: 0.3s;
-  font-size: 1.4rem;
-}
-@media (max-width: 63.9375em) {
-  .header .nav .nav_link.active {
-    font-size: 0.8rem;
-  }
-}
 @media (max-width: 63.9375em) {
   .header .nav .nav_link {
     font-size: 0.8rem;
@@ -299,10 +288,15 @@ a {
   margin-bottom: 1rem;
 }
 .home_about .about_content .about_content_heading h2 {
+  font-size: 1.2rem;
   letter-spacing: 0.4rem;
 }
 .home_about .about_content p {
-  font-size: 1.2rem;
+  color: #000000;
+  font-size: 1.4rem;
+  text-transform: none;
+  letter-spacing: normal;
+  font-family: "Nunito", sans-serif;
 }
 .home_about .about_content .tools {
   display: flex;
@@ -319,6 +313,12 @@ a {
 .home_about .about_content .tools .tools_content {
   text-align: center;
   padding-top: 1rem;
+}
+.home_about .about_content .tools .tools_content h3 {
+  font-size: 1rem;
+}
+.home_about .about_content .tools .tools_content p {
+  font-size: 1rem;
 }
 
 .home_mission {
@@ -677,12 +677,6 @@ span {
   font-weight: 900;
   color: #ff5703;
   transition: 400ms ease-in-out;
-  font-size: 0.8rem;
-}
-.footer .section .nav_link.active {
-  font-weight: 900;
-  color: #ff5703;
-  transition: 0.3s;
   font-size: 0.8rem;
 }
 .footer .base_footer {
