@@ -390,6 +390,11 @@ a {
 .home_projects .projects_content img {
   width: 50%;
   margin-bottom: 1rem;
+  transition: 300ms ease-in-out;
+}
+.home_projects .projects_content img:hover {
+  transform: scale(1.1);
+  transition: 300ms ease-in-out;
 }
 .home_projects .projects_content .cybrfybr {
   display: flex;
